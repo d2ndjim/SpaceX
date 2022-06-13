@@ -1,0 +1,49 @@
+.container {
+  width: 65%;
+  margin: 5em auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 0.5em;
+}
+
+.image {
+  width: 25em;
+  height: 18em;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.desc {
+  font-size: 1.1rem;
+}
+
+.btn {
+  background-color: #0e7cfd;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3em;
+  padding: 1em;
+}
+
+.reserved {
+  background-color: #0e7cfd;
+  color: #fff;
+  padding: 0 0.5em;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  margin-right: 1em;
+}

@@ -10,7 +10,7 @@ const Nav = () => (
       <h2>Space Traveler&apos;s Hub</h2>
     </div>
     <nav className={classes.nav}>
-      <Link to="/rockets" className={classes.links}>
+      <Link to="/" className={classes.links}>
         Rockets
       </Link>
       <Link to="/missions" className={classes.links}>

@@ -3,9 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const options = {
   name: 'missions',
   initialState: [],
-  reducers: {
-
-  },
+  reducers: {},
 };
 
 const missionsSlice = createSlice(options);

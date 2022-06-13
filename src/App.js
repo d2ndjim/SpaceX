@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/nav';
 import Profile from './components/profile';
-import Dragons from './components/Dragons/Dragons';
+import Dragons from './components/dragons/Dragons';
 import './App.css';
 
 function App() {
@@ -12,7 +12,6 @@ function App() {
         <Route path="/" element={<Profile />} />
         <Route path="/dragons" element={<Dragons />} />
       </Routes>
-
     </>
   );
 }

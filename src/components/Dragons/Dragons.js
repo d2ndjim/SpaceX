@@ -1,29 +1,24 @@
-/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getDragons, updateReserved } from '../../redux/dragons/dragonsSlice';
+import { fetchDragons } from '../../redux/dragons/dragonsSlice';
+import styles from './Dragons.module.css';
 
 const Dragons = () => {
-  const dragons = useSelector((state) => state);
+  const dragons = useSelector((state) => state.dragons);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getDragons());
+    dispatch(fetchDragons());
   }, [dispatch]);
 
-  const clickHandler = (id) => {
-    dispatch(updateReserved(id));
-  };
-
   return (
-    <>
-      <div>
-        Hello
-        {/* {dragons.map((dragon) => (
-          <h1 key={dragon.id}>{dragon.name}</h1>
-        ))} */}
-      </div>
-    </>
+    <section className={styles.dragonsSec}>
+      {dragons.map((dragon) => (
+        <div key={dragon.id}>
+          <h2>{dragon.name}</h2>
+        </div>
+      ))}
+    </section>
   );
 };
 

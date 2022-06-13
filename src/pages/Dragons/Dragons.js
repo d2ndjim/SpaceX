@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getDragons, selectDragons } from '../../redux/dragons/dragonsSlice';
+import { getDragons, selectDragons, reserveDragonsToggle as toggleReserve } from '../../redux/dragons/dragonsSlice';
 
 const Dragons = () => {
   const dragons = useSelector(selectDragons);

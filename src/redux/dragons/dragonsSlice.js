@@ -29,4 +29,6 @@ const options = {
 };
 
 const dragonsSlice = createSlice(options);
+export const selectDragons = (state) => state.dragons;
+export const { reserveDragonsToggle } = dragonsSlice.actions;
 export default dragonsSlice.reducers;

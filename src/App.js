@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/nav';
 import Profile from './components/profile';
+import Rockets from './components/Rockets';
 import './App.css';
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
     <>
       <Nav />
       <Routes>
-        <Route path="/" element={<Profile />} />
+        <Route index path="/" element={<Rockets />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
-
     </>
   );
 }

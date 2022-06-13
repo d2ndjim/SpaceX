@@ -17,9 +17,13 @@
 .nav {
   display: flex;
   gap: 10px;
-
 }
 
 .links {
   text-decoration: none;
+}
+
+.active {
+  border-bottom: 3px solid black;
+  padding: 3px;
 }

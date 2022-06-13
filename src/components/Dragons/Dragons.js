@@ -19,9 +19,9 @@ const Dragons = () => {
     <>
       <div>
         Hello
-        {dragons.map((dragon) => (
+        {/* {dragons.map((dragon) => (
           <h1 key={dragon.id}>{dragon.name}</h1>
-        ))}
+        ))} */}
       </div>
     </>
   );

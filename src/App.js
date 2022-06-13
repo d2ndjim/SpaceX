@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/nav';
 import Profile from './components/profile';
-import Dragons from './pages/Dragons/Dragons';
+import Dragons from './components/Dragons/Dragons';
 import './App.css';
 
 function App() {

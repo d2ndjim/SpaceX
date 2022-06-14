@@ -1,6 +1,7 @@
 :root {
   --buttonDefault: #007bff;
   --buttonCancel: #6d757d;
+  --reserved: #18a2b8;
 }
 
 .dragons_wrapper {
@@ -33,4 +34,13 @@ button {
   border: 1px solid var(--buttonCancel);
   background-color: #fff;
   color: var(--buttonCancel);
+}
+
+.badge {
+  background-color: var(--reserved);
+  border-radius: 5px;
+  color: #fff;
+  font-size: small;
+  padding: 0.2rem 0.4rem;
+  margin: 5px;
 }

@@ -19,6 +19,7 @@ const Dragons = () => {
         <div className={styles.dragons_info}>
           <h3>Dragon 1</h3>
           <p>
+            <span className={styles.badge}>Reserved</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Incidunt magni, excepturi voluptatem architecto reprehenderit
             nam sint exercitationem non autem cum.

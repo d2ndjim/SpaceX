@@ -27,7 +27,7 @@ const Rockets = () => {
                 {rocket.reserved && <span className={classes.reserved}>Reserved</span>}
                 {rocket.description}
               </p>
-              {rocket.reserved && (<button type="button" className={classes.btn} onClick={() => clickHandler(rocket.id)}>Cancel Reservation</button>)}
+              {rocket.reserved && (<button type="button" className={classes.cancelBtn} onClick={() => clickHandler(rocket.id)}>Cancel Reservation</button>)}
               {!rocket.reserved && (
               <button type="button" className={classes.btn} onClick={() => clickHandler(rocket.id)}>
                 Reserve Rocket

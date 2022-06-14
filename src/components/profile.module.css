@@ -1,7 +1,27 @@
 .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
   width: 80%;
-  place-items: center;
   margin: auto;
+  margin-top: 5em;
+  gap: 3em;
+}
+
+.header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+
+.text {
+  border: 1px solid gray;
+  padding: 1em;
+  margin: 0;
+  width: 100%;
+}
+
+.mission,
+.rocket,
+.dragon {
+  width: 33%;
 }

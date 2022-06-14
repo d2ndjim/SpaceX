@@ -15,30 +15,30 @@ const Profile = () => {
   return (
     <section className={classes.grid}>
       <div className={classes.mission}>
-        <h2>My Missions</h2>
+        <h2 className={classes.header}>My Missions</h2>
         {filterMissions.length > 0 ? (
           filterMissions.map((mission) => (
-            <p key={mission.name}>{mission.name}</p>
+            <p className={classes.text} key={mission.name}>{mission.name}</p>
           ))
         ) : (
           <p>No Mission Joined!</p>
         )}
       </div>
       <div className={classes.rocket}>
-        <h2>My Rockets</h2>
+        <h2 className={classes.header}>My Rockets</h2>
         {filterRockets.length > 0 ? (
           filterRockets.map((rocket) => (
-            <p key={rocket.rocket_name}>{rocket.rocket_name}</p>
+            <p className={classes.text} key={rocket.rocket_name}>{rocket.rocket_name}</p>
           ))
         ) : (
           <p>No Rocket Reserved!</p>
         )}
       </div>
       <div className={classes.dragon}>
-        <h2>My Dragons</h2>
+        <h2 className={classes.header}>My Dragons</h2>
         {filterDragons.length > 0 ? (
           filterDragons.map((dragon) => (
-            <p key={dragon.name}>{dragon.name}</p>
+            <p className={classes.text} key={dragon.name}>{dragon.name}</p>
           ))
         ) : (
           <p>No Dragon Reserved!</p>

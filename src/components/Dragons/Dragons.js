@@ -30,11 +30,11 @@ const Dragons = () => {
                   {dragon.description}
                 </p>
                 <button
-                  className={styles.buttonDefault}
+                  className={(dragon.reserved) ? styles.buttonCancel : styles.buttonDefault}
                   type="button"
                   onClick={() => handleClick(dragon.id)}
                 >
-                  Reserve Dragon
+                  {(dragon.reserved) ? 'Cancel Reservation' : 'Reserve Dragon'}
                 </button>
               </div>
             </div>

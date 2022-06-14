@@ -4,7 +4,7 @@
 ​
 ### To see deployed live version, Click link below
 ​
-### [Netlify](#)
+### [Netlify](https://brilliant-dolphin-a10874.netlify.app/profile)
 ​
 ​
 ## Built With

@@ -1,0 +1,36 @@
+:root {
+  --buttonDefault: #007bff;
+  --buttonCancel: #6d757d;
+}
+
+.dragons_wrapper {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.dragons_wrapper i {
+  border: 2px solid green;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+}
+
+.buttonDefault {
+  border: 1px solid var(--buttonDefault);
+  background-color: var(--buttonDefault);
+  color: #fff;
+}
+
+.buttonCancel {
+  border: 1px solid var(--buttonCancel);
+  background-color: #fff;
+  color: var(--buttonCancel);
+}

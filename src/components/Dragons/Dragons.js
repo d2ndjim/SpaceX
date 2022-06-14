@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchDragons } from '../../redux/dragons/dragonsSlice';
@@ -12,12 +13,19 @@ const Dragons = () => {
   }, [dispatch]);
 
   return (
-    <section className={styles.dragonsSec}>
-      {dragons.map((dragon) => (
-        <div key={dragon.id}>
-          <h2>{dragon.name}</h2>
+    <section>
+      <div className={styles.dragons_wrapper}>
+        <i />
+        <div className={styles.dragons_info}>
+          <h3>Dragon 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Incidunt magni, excepturi voluptatem architecto reprehenderit
+            nam sint exercitationem non autem cum.
+          </p>
+          <button className={styles.buttonDefault} type="button">Reserve Dragon</button>
         </div>
-      ))}
+      </div>
     </section>
   );
 };

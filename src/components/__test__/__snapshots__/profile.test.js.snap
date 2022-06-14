@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profiles test renders profiles 1`] = `
+<section
+  className="grid"
+>
+  <div
+    className="mission"
+  >
+    <h2
+      className="header"
+    >
+      My Missions
+    </h2>
+    <p>
+      No Mission Joined!
+    </p>
+  </div>
+  <div
+    className="rocket"
+  >
+    <h2
+      className="header"
+    >
+      My Rockets
+    </h2>
+    <p>
+      No Rocket Reserved!
+    </p>
+  </div>
+  <div
+    className="dragon"
+  >
+    <h2
+      className="header"
+    >
+      My Dragons
+    </h2>
+    <p>
+      No Dragon Reserved!
+    </p>
+  </div>
+</section>
+`;

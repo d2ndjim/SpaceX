@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dragons test renders dragons 1`] = `
+<section>
+  <div
+    className="dragons_wrapper"
+  />
+</section>
+`;

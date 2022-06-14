@@ -7,7 +7,7 @@ const Nav = () => (
   <header className={classes.header}>
     <div className={classes.text}>
       <img src={planet} alt="logo" className={classes.img} />
-      <h2>Space Traveler&apos;s Hub</h2>
+      <h2 className={classes.h2}>Space Traveler&apos;s Hub</h2>
     </div>
     <nav className={classes.nav}>
       <NavLink to="/" className={classes.active}>

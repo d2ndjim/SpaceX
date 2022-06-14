@@ -2,11 +2,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 1px solid grey;
 }
 
 .text {
   display: flex;
   align-items: center;
+}
+
+.h2 {
+  font-weight: bold;
 }
 
 .img {

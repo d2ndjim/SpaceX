@@ -7,6 +7,9 @@
 .dragons_wrapper {
   width: 80%;
   margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .dragon_wrapper {
@@ -17,8 +20,8 @@
 .dragons_wrapper img {
   width: 80%;
   height: 80vw;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 button {

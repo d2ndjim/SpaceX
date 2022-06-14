@@ -21,7 +21,7 @@ const Dragons = () => {
         {
           dragons.map((dragon) => (
             <div key={dragon.id} className={styles.dragon_wrapper}>
-              <img src={dragon.image} alt="Dragon" />
+              <img className={styles.image} src={dragon.image} alt="Dragon" />
               <div className={styles.dragons_info}>
                 <h2>{dragon.name}</h2>
                 <p>

@@ -11,3 +11,7 @@
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
 }
+
+.active {
+  border-bottom: 2px solid black;
+}

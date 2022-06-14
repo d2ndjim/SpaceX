@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar test renders navbar 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <div
+      className="text"
+    >
+      <img
+        alt="logo"
+        className="img"
+        src="planet.png"
+      />
+      <h2
+        className="h2"
+      >
+        Space Traveler's Hub
+      </h2>
+    </div>
+    <nav
+      className="nav"
+    >
+      <a
+        aria-current="page"
+        className="active active"
+        href="/"
+        onClick={[Function]}
+      >
+        Rockets
+      </a>
+      <a
+        className="links"
+        href="/missions"
+        onClick={[Function]}
+      >
+        Missions
+      </a>
+      <a
+        className="links"
+        href="/dragons"
+        onClick={[Function]}
+      >
+        Dragons
+      </a>
+      <a
+        className="links"
+        href="/profile"
+        onClick={[Function]}
+      >
+        My profile
+      </a>
+    </nav>
+  </header>,
+  <hr
+    className="line"
+  />,
+]
+`;

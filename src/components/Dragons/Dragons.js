@@ -8,7 +8,7 @@ const Dragons = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchDragons());
+    if (!dragons.length) dispatch(fetchDragons());
   }, [dispatch]);
 
   const handleClick = (id) => {

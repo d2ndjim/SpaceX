@@ -1,0 +1,56 @@
+:root {
+  --buttonDefault: #007bff;
+  --buttonCancel: #6d757d;
+  --reserved: #18a2b8;
+}
+
+.dragons_wrapper {
+  width: 65%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dragon_wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.dragon_wrapper h2 {
+  font-size: 1.6rem;
+}
+
+.dragons_wrapper img {
+  width: 80%;
+  height: 80vw;
+  max-width: 325px;
+  max-height: 300px;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+}
+
+.buttonDefault {
+  border: 1px solid var(--buttonDefault);
+  background-color: var(--buttonDefault);
+  color: #fff;
+}
+
+.buttonCancel {
+  border: 1px solid var(--buttonCancel);
+  background-color: #fff;
+  color: var(--buttonCancel);
+}
+
+.badge {
+  background-color: var(--reserved);
+  border-radius: 5px;
+  color: #fff;
+  font-size: small;
+  padding: 0.2rem 0.4rem;
+  margin: 5px;
+}

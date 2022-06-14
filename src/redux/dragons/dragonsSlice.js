@@ -10,7 +10,7 @@ export const fetchDragons = createAsyncThunk(
       id: dragon.id,
       name: dragon.name,
       description: dragon.description,
-      Image: dragon.flickr_images[0],
+      image: dragon.flickr_images[0],
       reserved: false,
     }));
     return dragons;

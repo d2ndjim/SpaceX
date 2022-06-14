@@ -8,7 +8,7 @@ const Rockets = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchRockets());
+    if (!rockets.length)dispatch(fetchRockets());
   }, [dispatch]);
 
   const clickHandler = (id) => {

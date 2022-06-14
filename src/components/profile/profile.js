@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import classes from './profile.module.css';
-import { selectMissions } from '../redux/missions/missionsSlice';
+import { selectMissions } from '../../redux/missions/missionsSlice';
 
 const Profile = () => {
   const missionsList = useSelector(selectMissions);

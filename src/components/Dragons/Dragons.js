@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchDragons, updateDragons } from '../../redux/dragons/dragonsSlice';
@@ -24,7 +23,7 @@ const Dragons = () => {
             <div key={dragon.id} className={styles.dragon_wrapper}>
               <img src={dragon.image} alt="Dragon" />
               <div className={styles.dragons_info}>
-                <h3>{dragon.name}</h3>
+                <h2>{dragon.name}</h2>
                 <p>
                   {(dragon.reserved) ? ((<span className={styles.badge}>Reserved</span>)) : ''}
                   {dragon.description}

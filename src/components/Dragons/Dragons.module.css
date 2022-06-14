@@ -5,7 +5,7 @@
 }
 
 .dragons_wrapper {
-  width: 80%;
+  width: 65%;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
@@ -17,11 +17,15 @@
   gap: 1rem;
 }
 
+.dragon_wrapper h2 {
+  font-size: 1.6rem;
+}
+
 .dragons_wrapper img {
   width: 80%;
   height: 80vw;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 325px;
+  max-height: 300px;
 }
 
 button {
